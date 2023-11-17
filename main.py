@@ -43,11 +43,6 @@ xSpeedHigher = 4
 enemyX_change = []
 enemyY_change = 40
 
-# for i in range(10):
-#     enemyX.append(random.randint(0, 725))
-#     enemyY.append(random.randint(0, 100))
-#     enemyX_change.append(random.randint(2, 4) / 10)
-
 
 playerimg = pygame.image.load('space-invaders.png')
 playerimg = pygame.transform.scale(playerimg, (75, 75))
